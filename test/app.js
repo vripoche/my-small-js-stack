@@ -9,8 +9,12 @@ describe('App', () => {
   beforeEach(() => {
     app = new App();
   });
-  
-  it('initialize', () => {
+
+  it('loads ES6 Polyfill', () => {
+    Symbol.should.be.a('function');
+  });
+
+  it('initializes', () => {
     app.initialize.should.be.a('function');
     app.initialize().should.equal('init');
   });

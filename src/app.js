@@ -1,3 +1,4 @@
+import 'babel-polyfill';
 import _ from 'lodash';
 
 var template = require('./hbs/app.hbs');
