@@ -43,7 +43,7 @@ gulp.task('connect', function() {
 
 gulp.task('test', function() {
   mochify('./test/*.js', {
-    reporter : 'list',
+    reporter : 'spec',
     cover    : false,
     watch    : true
   }).bundle();
