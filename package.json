@@ -23,6 +23,7 @@
     "lodash": "^4.4.0",
     "mochify": "^2.16.0",
     "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
   },
