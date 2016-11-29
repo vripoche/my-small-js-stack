@@ -1,2 +1,4 @@
-My small Gulp/Browserify/Babel/Lodash/Handlebars/Mocha stack
-============================================================
+SinonJS practices
+=================
+
+-> http://sinonjs.org/
