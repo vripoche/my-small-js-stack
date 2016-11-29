@@ -1,9 +1,9 @@
 import 'babel-polyfill';
 import _ from 'lodash';
 
-var template = require('./hbs/app.hbs');
+const template = require('./hbs/app.hbs');
 
-var App = new Function("this.initialize()");
+const App = new Function("this.initialize()");
 
 _.extend(App.prototype, {
   template: template,

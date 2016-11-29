@@ -1,11 +1,4 @@
-var chai = require('chai');
-var sinonChai = require("sinon-chai");
-var sinon = require('sinon');
-
-var should = chai.should();
-chai.use(sinonChai);
-
-var App = require('../src/app.js');
+const App = require('../src/app.js');
 
 describe('App', () => {
   var app;
