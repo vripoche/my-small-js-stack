@@ -13,7 +13,7 @@ describe('Practice 1', () => {
         
         stub.returns(false);
 
-        const test = function () {
+        const test = () => {
             new LocalStore();
         }
 

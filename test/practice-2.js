@@ -15,5 +15,11 @@ describe('Practice 2', () => {
         stub.withArgs('name').returns('John');
 
         localStore.get('name').should.equal('John');
+        
+        //Without sinon-chai
+        stub.calledOnce.should.be.true;
+
+        //With sinon-chai
+        stub.should.be.calledOnce;
     });
 });
