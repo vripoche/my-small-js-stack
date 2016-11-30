@@ -42,7 +42,7 @@ gulp.task('connect', function() {
 });
 
 gulp.task('test', function() {
-  mochify('./test/bootstrap.js', {
+  mochify('./test/**/*.js', {
     reporter : 'spec',
     cover    : false,
     watch    : true
